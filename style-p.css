@@ -10,15 +10,23 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 80%; /* Hace que el contenedor sea del 80% del ancho de la pantalla */
+    height: auto; /* Permite que la altura del contenedor se ajuste según su contenido */
     text-align: center;
     padding: 20px;
     background-color: #40312C; /* Fashion-3-hex - Contraste para resaltar el contenido */
     color: #F2F2F2; /* Fashion-5-hex - Texto claro para contrastar con el fondo oscuro */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 10px; /* Reduce el margen en dispositivos móviles */
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90%; /* Cambia el ancho máximo para dispositivos móviles */
+    }
+}
+
 
 h1 {
     color: #F2F2F2; /* Fashion-5-hex - Color de texto claro para encabezados */
@@ -29,8 +37,11 @@ p {
 }
 
 iframe {
+    width: 100%;
+    max-height: 80vh; /* El iframe puede ocupar hasta el 80% de la altura de la ventana */
     margin-top: 20px;
     border: none; /* Eliminar el borde del iframe */
 }
+
 
 
