@@ -1,0 +1,36 @@
+body {
+    background-color: #BFB2AA; /* Fashion-2-hex - Un tono cálido */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    background-color: #40312C; /* Fashion-3-hex - Contraste para resaltar el contenido */
+    color: #F2F2F2; /* Fashion-5-hex - Texto claro para contrastar con el fondo oscuro */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h1 {
+    color: #F2F2F2; /* Fashion-5-hex - Color de texto claro para encabezados */
+}
+
+p {
+    color: #73635D; /* Fashion-4-hex - Color de texto para párrafos */
+}
+
+iframe {
+    margin-top: 20px;
+    border: none; /* Eliminar el borde del iframe */
+}
+
+
