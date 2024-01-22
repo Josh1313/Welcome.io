@@ -1,47 +1,49 @@
 body {
-    background-color: #BFB2AA; /* Fashion-2-hex - Un tono cálido */
+    background-color: #BFB2AA;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 80%; /* Hace que el contenedor sea del 80% del ancho de la pantalla */
-    height: auto; /* Permite que la altura del contenedor se ajuste según su contenido */
+    width: 80%;
+    max-width: 800px;
     text-align: center;
     padding: 20px;
-    background-color: #40312C; /* Fashion-3-hex - Contraste para resaltar el contenido */
-    color: #F2F2F2; /* Fashion-5-hex - Texto claro para contrastar con el fondo oscuro */
+    background-color: #40312C;
+    color: #F2F2F2;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 10px; /* Reduce el margen en dispositivos móviles */
+    margin: 10px;
 }
 
 @media only screen and (max-width: 600px) {
     .container {
-        max-width: 90%; /* Cambia el ancho máximo para dispositivos móviles */
+        width: 90%;
     }
 }
 
-
 h1 {
-    color: #F2F2F2; /* Fashion-5-hex - Color de texto claro para encabezados */
+    color: #F2F2F2;
 }
 
 p {
-    color: #73635D; /* Fashion-4-hex - Color de texto para párrafos */
+    color: #73635D;
+}
+
+.pdf-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
 }
 
 iframe {
     width: 100%;
-    max-height: 80vh; /* El iframe puede ocupar hasta el 80% de la altura de la ventana */
-    margin-top: 20px;
-    border: none; /* Eliminar el borde del iframe */
+    height: 100vh;
+    max-height: 80vh;
+    border: none;
 }
-
-
-
