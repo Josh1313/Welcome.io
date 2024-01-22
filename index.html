@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +19,8 @@
         <p>A continuación, encontrarás un PDF que detalla los procedimientos y responsabilidades de tu puesto. Tómate tu tiempo para revisarlo. Si tienes alguna pregunta, no dudes en comunicarte.</p>
        
         <div class="pdf-container">
-            <!-- Updated iframe with better responsiveness -->
-            <object id="pdfFrame" data="Manual.pdf" type="application/pdf" width="100%" height="600">
-                <p>El navegador no es compatible con la visualización de PDF. Descarga el PDF para verlo.</p>
-            </object>
+            <!-- Updated embed tag for better mobile compatibility -->
+            <embed id="pdfFrame" src="Manual.pdf" type="application/pdf" width="100%" height="600px" />
         </div>
 
         <p>Gracias por unirte a nosotros. ¡Esperamos verte pronto!</p>
@@ -32,6 +29,7 @@
     <script src="pdfProteccion.js"></script>
 </body>
 </html>
+
 
 
 
