@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-p.css">
     <title>Bienvenido a WarshipLogistic</title>
+    <style>
+        /* Add style for restricting text selection */
+        body {
+            user-select: none;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -14,7 +20,10 @@
         <p>A continuación, encontrarás un PDF que detalla los procedimientos y responsabilidades de tu puesto. Tómate tu tiempo para revisarlo. Si tienes alguna pregunta, no dudes en comunicarte.</p>
        
         <div class="pdf-container">
-            <iframe id="pdfFrame" src="Manual.pdf"></iframe>
+            <!-- Updated iframe with better responsiveness -->
+            <object id="pdfFrame" data="Manual.pdf" type="application/pdf" width="100%" height="600">
+                <p>El navegador no es compatible con la visualización de PDF. Descarga el PDF para verlo.</p>
+            </object>
         </div>
 
         <p>Gracias por unirte a nosotros. ¡Esperamos verte pronto!</p>
@@ -23,5 +32,6 @@
     <script src="pdfProteccion.js"></script>
 </body>
 </html>
+
 
 
