@@ -1,12 +1,5 @@
 body {
-    background-color: #BFB2AA;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    user-select: none;
 }
 
 .container {
@@ -40,6 +33,3 @@ p {
     overflow: hidden;
     margin-top: 20px;
 }
-
-/* Remove styling for iframe, as it's no longer used */
-
